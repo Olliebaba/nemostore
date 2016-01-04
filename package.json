@@ -1,0 +1,29 @@
+{
+  "name": "deployd-heroku-demo test",
+  "version": "0.0.1",
+  "description": "Demo of Deployd running on Heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NicolasRitouet/deployd-heroku-demo.git"
+  },
+  "keywords": [
+    "Deployd",
+    "dpd",
+    "api",
+    "heroku"
+  ],
+  "author": "Nicolas Ritouet <nicolas@ritouet.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasRitouet/deployd-heroku-demo/issues"
+  },
+  "homepage": "https://github.com/NicolasRitouet/deployd-heroku-demo",
+  "dependencies": {
+    "deployd": "git://github.com/deployd/deployd.git#v0.8.0-rc.3",
+    "express": "^4.11.1"
+  }
+}
